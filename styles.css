@@ -1,0 +1,91 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, strong, em {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  background: none;
+  border: none;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+ol, ul, menu, a {
+  list-style: none;
+ text-decoration: none;
+}
+
+:root {
+    --variable: 1px;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.parent {
+  padding: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  gap: 50px;
+}
+
+.child {
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.yellow {
+  background-color: palegoldenrod;
+}
+
+.pink {
+  background-color: palevioletred;
+  
+}
+
+.blue {
+  background-color: paleturquoise;
+}
+
+button {
+  background-color: crimson;
+  padding-inline: 30px;
+  padding-block: 20px;
+}
+
+button:hover {
+  background-color: rgb(170, 14, 45);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(133, 13, 37);
+  scale: .95;
+}
+
+.border {
+  outline: solid black 5px;
+  outline-offset: 10px;
+}
