@@ -20,13 +20,8 @@ button.addEventListener("click", function(){
     cycle();
 });
 
-
-if (i == colors.length - 1) {
-    i = 0;
-}
-
-
 // const colorIndex = timeElapsed % COLORS.length;
 //Need 3 variables for a circular array loop
 //Index = increment variable (i.e clicks, seconds passed) % array.length
 //clicks outside the loop, i inside
+
